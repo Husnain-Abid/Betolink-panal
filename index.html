@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="container">
+
+            <!-- ribbon bar start  -->
+
+            <div class="ribbon-bar">
+
+                <div class="ribbion-box-1">
+
+                    <div class="date-picker">
+                        <input type="date" value="2024-11-15">
+
+                        <div class="arrows-icons">
+                            <div class="icons">
+                                <span class="arrows-icon">
+                                    <i class="fa-solid fa-caret-up" style="color: #007BFF;"></i>
+                                </span>
+                            </div>
+                            <div class="icons">
+                                <span class="arrows-icon">
+                                    <i class="fa-solid fa-caret-down" style="color: #007BFF;"></i>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="status-boxes">
+                        <div class="status-box completed">
+                            <span class="icon"><i class="fa-regular fa-circle-check" style="color: green;"></i></span>
+                            <span class="status">Completed</span>
+                        </div>
+                        <div class="status-box under-construction">
+                            <span class="icon"><i class="fa-regular fa-hourglass" style="color: #007BFF;"></i></span>
+                            <span class="status">Under Construction</span>
+                        </div>
+                        <div class="status-box waiting">
+                            <span class="icon">
+                                <i class="fa-regular fa-circle-pause" style="color: orange;"></i>
+
+                            </span>
+                            <span class="status">Waiting</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="ribbion-box-2">
+
+                    <div class="status-indicators">
+
+                        <div class="indicator slow-delivery">
+                            <span class="icon"><i class="fa-regular fa-clock" style="color: red;"></i></span>
+                            <span class="status">Slow Delivery Rate</span>
+                        </div>
+
+                        <div class="indicator specimens">
+                            <span class="icon"><i class="fa-regular fa-circle-check" style="color: green;"></i></span>
+                            <span class="status">Completed</span>
+                        </div>
+
+                        <div class="indicator cancelled">
+                            <span class="icon"><i class="fa-regular fa-hourglass" style="color: #007BFF;"></i></span>
+                            <span class="status">Under Construction</span>
+                        </div>
+
+                    </div>
+
+                    <div class="status-indicators">
+                        <div class="indicator slow-delivery">
+                            <span class="icon"><i class="fa-regular fa-clock"></i> <i
+                                    class="fa-solid fa-trowel-bricks"></i> </span>
+                            <span class="status">Specimens
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </div>
+                        <div class="indicator cancelled">
+                            <span class="icon"><i class="fa-regular fa-circle-xmark" style="color: red;"></i></span>
+                            <span class="status">Cancelled </span>
+                        </div>
+                        <div class="indicator waiting">
+                            <span class="icon"><i class="fa-regular fa-circle-pause" style="color: orange"></i></span>
+                            <span class="status">Waiting</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <!-- ribbon bar end  -->
+
+
+            <!-- table sheet start -->
+
+            <div class="table-sheet">
+                <table class="orders-table">
+                    <thead>
+                        <!-- <tr>
+                            <th colspan="11">Daily Sites - Orders</th>
+                        </tr> -->
+                        <tr>
+                            <!-- <th><i class="fa-regular fa-pen-to-square"></i></th> -->
+                            <th><img src="./assets/handwriting.png" alt="note"></th>
+                            <!-- <th>Daily Sites - Orders</th> -->
+                            <th class="wide-column">Daily Sites - Orders</th>
+
+                            <th>Strength / Slump</th>
+                            <th>Mix Design Autom.</th>
+                            <th>Time Starting</th>
+                            <th>Order Qty m³</th>
+                            <th>Executed Qty m³</th>
+                            <th>Left Qty m³</th>
+                            <th>Status</th>
+                            <th>UL</th>
+                            <th><span class="icon "><img src="/assets/truck.png" alt="truck"></span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon pencil-icon"><img src="/assets/pencil.png" alt="pencil"></span></td>
+                            <td>ΦΩΤΕΙΝΗ ΠΑΝΑΓΙΩΤΙΔΟΥ ΓΕΩΡ (ΑΝΑΤΟΛΙΚΗΣ ΘΡΑΚΗΣ 5) </td>
+                            <td>0180</td>
+                            <td>S180</td>
+                            <td>11:35</td>
+                            <td>80</td>
+                            <td>0</td>
+                            <td>80,0</td>
+                            <td><span class="icon"><i class="fa-regular fa-circle-pause"
+                                        style="color: orange"></i></span></td>
+                            <td>0</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="icon pencil-icon"><img src="/assets/pencil.png" alt="pencil"></span></td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="icon pencil-icon"><img src="/assets/pencil.png" alt="pencil"></span></td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="icon pencil-icon"><img src="/assets/pencil.png" alt="pencil"></span></td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="icon pencil-icon"><img src="/assets/pencil.png" alt="pencil"></span></td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="icon pencil-icon"><img src="/assets/pencil.png" alt="pencil"></span></td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="icon pencil-icon"><img src="/assets/pencil.png" alt="pencil"></span></td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="icon pencil-icon"><img src="/assets/pencil.png" alt="pencil"></span></td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="icon pencil-icon"><img src="/assets/pencil.png" alt="pencil"></span></td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+
+
+                        <!-- Additional rows can be added here -->
+                    </tbody>
+                </table>
+            </div>
+
+
+            <!-- table sheet end -->
+
+
+            <!-- calculation section start -->
+
+
+            <div class="calculation-section">
+
+                <div class="calculation-form">
+                    <div class="form-row">
+                        <div class="icon"> <img src="/assets/work.png" alt="pencil"></div>
+                        <div class="input-field-1">
+                            <label for=""> &nbsp; &nbsp; </label>
+                            <input type="text" class="large-input">
+                        </div>
+                        <div class="input-field-2">
+                            <label for="">Production Notes</label>
+                            <input type="text" class="large-input">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="icon"><img src="/assets/cement-truck.png" alt="pencil"></div>
+
+                        <input type="text" value="Vehicles" class="small-input" readonly>
+                        <div class="arrow-icon">
+                            <i class="fa-solid fa-caret-up" style="color: #007BFF;"></i>
+                            <i class="fa-solid fa-caret-down" style="color: #007BFF;"></i>
+                        </div>
+                        <div class="icon note"><img src="/assets/note.png" alt="pencil"></div>
+                        <input type="text" class="small-input">
+                        <input type="text" class="small-input">
+                        <div class="unit">m³</div>
+                        <input type="text" value="00.0" class="small-input">
+                        <div class="arrow-icon">
+                            <i class="fa-solid fa-caret-up" style="color: #007BFF;"></i>
+                            <i class="fa-solid fa-caret-down" style="color: #007BFF;"></i>
+                        </div>
+                        <div class="icon manometer" style="color: rgb(175, 144, 40);">
+                            <img src="/assets/manometer.png" alt="pencil">
+                        </div>
+                        <input type="text" value="M" class="small-input">
+                        <div class="arrow-icon">
+                            <i class="fa-solid fa-caret-up" style="color: #007BFF;"></i>
+                            <i class="fa-solid fa-caret-down" style="color: #007BFF;"></i>
+                        </div>
+                        <div class="icon"><img src="/assets/enter.png" alt="pencil" width="50px"></div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="icon">
+                            <img src="/assets/down-arrow.png" alt="arrow" id="arrowIcon" class="arrow-icon">
+                        </div>
+
+                        <!-- Original Mix Design Notes input field -->
+                        <div class="input-field-3" id="mixDesignDiv">
+                            <label for="">Mix Design Notes</label>
+                            <input type="text" class="large-input">
+                        </div>
+
+                        <!-- New div to be shown on arrow click -->
+                        <div  class="input-field-3" id="newDiv" style="display: none;">
+                            <div class="input-field-13">
+
+                                <div class="input-divid">
+                                    <label for="">Specimens</label>
+                                    <div class="additional-inputs">
+                                        <div class="brick-icon">
+                                            <img src="/assets/bricks.png" alt="arrow" id="arrowIcon">
+                                        </div>
+                                        <div>
+                                            <div class="day-input">
+                                                <input type="number" value="0" id="field1" class="large-input">
+                                                <span>7 days</span>
+                                            </div>
+                                            <label for="field1">PCS</label>
+                                        </div>
+    
+                                        <div>
+                                            <div class="day-input">
+                                                <input type="number" value="0" id="field1" class="large-input">
+                                                <span>28 days</span>
+                                            </div>
+                                            <label for="field1">PCS</label>
+                                        </div>
+    
+    
+    
+    
+                                    </div>
+                                </div>
+    
+                                <div class="input-divid">
+                                    <label for="">Add new Specimens</label>
+                                    <div class="additional-inputs">
+    
+                                        <div>
+                                            <div class="day-input">
+                                                <input type="number" value="0" id="field1" class="large-input">
+                                                <span>7 days</span>
+                                            </div>
+                                        </div>
+    
+                                        <div>
+                                            <div class="day-input">
+                                                <input type="number"  value="0" id="field1" class="large-input">
+                                                <span>28 days</span>
+                                            </div>
+                                        </div>
+    
+    
+    
+    
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="input-field-3">
+                            <label for="">Production Notes</label>
+                            <input type="text" class="large-input">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="calculation-popup">
+
+                    <div class="header">
+                        <div class="checkboxes">
+                            <label style="display: none;"><input type="checkbox" id="m1Checkbox"
+                                    class="automation-checkbox"> M1</label>
+                            <label style="display: none;"><input type="checkbox" id="m2Checkbox"
+                                    class="automation-checkbox"> M2</label>
+                            <label><input type="checkbox" id="allCheckbox" class="automation-checkbox" checked>
+                                All</label>
+
+                        </div>
+                    </div>
+
+                    <!-- equipment section start -->
+
+                    <div class="equipment" id="equipmentSection">
+
+                        <div class="equipment-list">
+                            <div class="equipment-item">
+                                <span class="label">M1</span>
+                                <div class="equipment-box">
+                                    ΕΞΟΜΟΙΩΤΗΣ ΖΥΓΩΝ <br> AUTO-LEADER 3000 P
+                                </div>
+                            </div>
+
+                            <div class="equipment-item">
+                                <span class="label">M2</span>
+                                <div class="equipment-box">
+                                    ΕΞΟΜΟΙΩΤΗΣ ΖΥΓΩΝ <br> AUTO-LEADER 3000 P
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- equipment section end -->
+
+
+                    <!-- control-panel section start -->
+
+                    <div class="control-panel" id="controlPanelSection">
+
+                        <span class="status">Automation Status</span>
+
+                        <div class="display">
+                            ΕΞΟΜΟΙΩΤΗΣ ΖΥΓΩΝ<br>
+                            AUTO-LEADER 3000 P
+                        </div>
+                        <div>
+
+
+                        </div>
+
+                        <div class="controls">
+                            <div class="control-row">
+                                <button class="blue">RECIPES</button>
+                                <button class="blue">PARAMETERS</button>
+                                <button class="blue">PRODUCTION</button>
+                                <button class="blue">REPEAT</button>
+                            </div>
+
+                            <div class="keypad">
+                                <button>1</button>
+                                <button>2</button>
+                                <button>3</button>
+                                <button>4</button>
+                                <button>5</button>
+                                <button>6</button>
+                                <button>7</button>
+                                <button>8</button>
+                                <button>9</button>
+                                <button>*</button>
+                                <button>0</button>
+                                <button>NO</button>
+                                <button>DEL</button>
+                                <button class="green">START</button>
+                                <button class="red">STOP</button>
+                                <button>←</button>
+                                <button>YES</button>
+                            </div>
+
+                            <div class="control-row">
+                                <button class="blue">ZERO</button>
+                                <button class="blue">MENU</button>
+                                <button class="blue">STATISTICS</button>
+                                <button class="blue">PRINT</button>
+                            </div>
+                        </div>
+
+
+                        <div class="footer">
+                            <button class="icon-button">
+                                <span class="icon">
+                                    <img src="/assets/menu.png" alt="pencil">
+                                </span>
+                                <span>Receive Last Production</span>
+                            </button>
+                            <button class="icon-button">
+                                <span class="icon">
+                                    <img src="/assets/note.png" alt="pencil">
+                                </span>
+                                <span>Upload Mix Designs</span>
+                            </button>
+                            <button class="icon-button">
+                                <span class="icon">
+
+                                    <img src="/assets/cement-truck.png" alt="pencil">
+
+                                </span>
+                                <span>Upload Vehicles</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- control-panel section end -->
+
+                </div>
+
+
+
+            </div>
+
+
+
+            <!-- calculation end -->
+
+            <!-- report sheet start -->
+
+            <div class="report-sheet">
+
+                <table class="report-table">
+                    <thead>
+                        <tr>
+                            <th>Prod. Number</th>
+                            <th>MixDesign</th>
+                            <th>Vehicle</th>
+                            <th>Quantity m³</th>
+                            <th>Mixer</th>
+                            <th>Starting Time</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+
+
+
+
+            <!-- report sheet end -->
+
+
+
+
+            <!-- edit popup start  -->
+            <div class="popup-overlay"></div>
+            <div class="popup-box">
+
+                <div class="form-container close-btn">
+                    <h2>Edit Order</h2>
+
+                    <form class="edit-order-form">
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="input-field">
+                                    <label>Client
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="text" value="ΦΩΤΕΙΝΗ ΠΑΝΑΓΙΩΤΙΔΟΥ ΓΕΩΡ" readonly>
+                                </div>
+                            </div>
+                            <div class="form-unit">
+                                <label>Order Qty (m³)&nbsp;&nbsp;</label>
+                                <input type="text" value="80" class="small-input">
+                                <span class="icon" style="visibility: hidden;">
+                                    <img src="/assets/search.png" alt="pencil">
+                                </span>
+                                <span class="icon" style="visibility: hidden;">
+                                    <img src="/assets/edit.png" alt="pencil">
+                                </span>
+                            </div>
+                        </div>
+
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="input-field-1">
+                                    <label>Code &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="text" value="0FDE5AB3BC90">
+                                </div>
+                                <div class="input-field-1">
+                                    <label>VAT</label>
+                                    <input type="text" value="157475702">
+                                </div>
+                            </div>
+                            <div class="form-unit">
+                                <label>Underload &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+                                <input type="text" value="0" class="small-input">
+                                <span class="icon" style="visibility: hidden;">
+                                    <img src="/assets/search.png" alt="pencil">
+                                </span>
+                                <span class="icon" style="visibility: hidden;">
+                                    <img src="/assets/edit.png" alt="pencil">
+                                </span>
+                            </div>
+                        </div>
+
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="input-field">
+                                    <label>Site &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                                        &nbsp;&nbsp;&nbsp;</label>
+                                    <input type="text" value="ΦΩΤΕΙΝΗ ΠΑΝΑΓΙΩΤΙΔΟΥ ΓΕΩΡ (ΑΝΑΤΟΛΙΚΗΣ ΘΡΑΚΗΣ 5)">
+
+                                </div>
+                            </div>
+                            <div class="form-unit">
+                                <label>Pump &nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                <input type="text" value="" class="small-input">
+                                <span class="icon">
+                                    <img src="/assets/search.png" alt="pencil">
+                                </span>
+                                <span class="icon">
+                                    <img src="/assets/edit.png" alt="pencil">
+                                </span>
+                            </div>
+
+
+                        </div>
+
+
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="input-field-1">
+                                    <label>Code &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="text" value="706BC50D07EA">
+                                </div>
+                                <div class="input-field-1">
+                                    <label>Pouring Date</label>
+                                    <input type="text" value="15/11/2024">
+                                </div>
+                            </div>
+                            <div class="form-unit">
+                                <label>Zone
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </label>
+
+                                <input type="text" value="" class="small-input">
+                                <span class="icon" style="visibility: hidden;">
+                                    <img src="/assets/search.png" alt="pencil">
+                                </span>
+                                <span class="icon" style="visibility: hidden;">
+                                    <img src="/assets/edit.png" alt="pencil">
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="input-field">
+                                    <label>Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="text" value="ΑΝΑΤΟΛΙΚΗΣ ΘΡΑΚΗΣ 5 (ΝΕΑ ΦΙΛΑΔΕΛΦΕΙΑ, )">
+
+                                </div>
+                            </div>
+                            <div class="form-unit">
+                                <label>Change
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                <input type="text" value="" class="small-input">
+                                <span class="icon">
+                                    <img src="/assets/search.png" alt="pencil">
+                                </span>
+                                <span class="icon">
+                                    <img src="/assets/edit.png" alt="pencil">
+                                </span>
+                            </div>
+
+
+                        </div>
+
+
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="input-field-2">
+                                    <label>MixDesign &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+                                </div>
+                                <div class="input-field-2">
+                                    <input type="text" value="S180">
+                                </div>
+                                <div class="input-field-2">
+                                    <input type="text" value="C30/37">
+                                </div>
+                                <div class="input-field-2">
+                                    <input type="text" value="S3">
+                                </div>
+                                <div class="input-field-2">
+                                    <input type="text" value="0180">
+                                </div>
+                            </div>
+                            <div class="form-unit">
+                                <label>Time
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </label>
+                                <input type="text" value="11:35" class="small-input">
+                                <span class="icon" style="visibility: hidden;">
+                                    <img src="/assets/search.png" alt="pencil">
+                                </span>
+                                <span class="icon" style="visibility: hidden;">
+                                    <img src="/assets/edit.png" alt="pencil">
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="input-field">
+                                    <label>Comments</label>
+                                    <input type="text" value="" readonly>
+                                </div>
+                            </div>
+                            <div class="form-unit">
+                                <label>Concrete Usage</label>
+                                <input type="text" value="" class="small-input">
+                                <span class="icon">
+                                    <img src="/assets/search.png" alt="pencil">
+                                </span>
+                                <span class="icon">
+                                    <img src="/assets/edit.png" alt="pencil">
+                                </span>
+                            </div>
+
+
+                        </div>
+
+
+
+                        <div class="form-actions">
+                            <button type="button">
+                                <span class="icon"><img src="/assets/pen.png" alt="pen"></span> Edit Order
+                            </button>
+                            <button type="button">
+                                <span class="icon"><img src="/assets/copy-paste.png" alt="pencil"></span> Copy Order
+                            </button>
+                            <button type="button">
+                                <span class="icon"><img src="/assets/previous.png" alt="pencil"></span> Back
+                            </button>
+                        </div>
+
+
+                    </form>
+                </div>
+                <!-- edit popup end  -->
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+        <script type="text/javascript" src="fun.js"></script>
+
+
+</body>
+
+</html>

@@ -75,9 +75,26 @@ body {
     background-color: #fff;
 }
 
+.ribbon-bar .status-box:hover {
+    border-color: gray;
+}
+
 .ribbon-bar .status-box .icon {
     margin-right: 5px;
 }
+
+.ribbon-bar .status-box.clicked {
+    color: gray; /* Change font color to gray */
+    border-color: gray;
+}
+
+.ribbon-bar .status-box.clicked .icon i {
+    color: gray !important;  /* Change icon color to gray */
+}
+
+
+
+
 
 .ribbon-bar .ribbion-box-2 {
     display: flex;
@@ -917,3 +934,4 @@ body {
     }
 
 }
+

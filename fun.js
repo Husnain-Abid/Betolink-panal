@@ -115,3 +115,18 @@ arrowIcon.addEventListener('click', () => {
         mixDesignDiv.style.display = 'block';
     }
 });
+
+
+// status animation 
+
+
+document.querySelectorAll('.status-box').forEach(statusBox => {
+    statusBox.addEventListener('click', function() {
+        // Remove 'clicked' class from all status boxes
+        document.querySelectorAll('.status-box').forEach(box => box.classList.remove('clicked'));
+        
+        // Add 'clicked' class to the clicked status box
+        this.classList.add('clicked');
+    });
+});
+
